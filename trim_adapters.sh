@@ -23,6 +23,7 @@ if [ ! -d "$OUTPUT_DIR" ]; then
     echo "Output directory doesn't exist. Creating it now..."
     mkdir -p "$OUTPUT_DIR"
 fi
+# only once 
 
 # Run Porechop to trim adapters from the reads
 echo "Starting adapter trimming of $RAW_FASTQ..."
